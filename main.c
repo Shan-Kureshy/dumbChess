@@ -16,22 +16,7 @@
 #define bQueen (-5)
 #define bKing (-6)
 
-/*TODO: rules to implement
- * castling
- * en passant
- * pawn becomes queen on opposite side
- * check/checkmate
- *
- * TODO: additional features
- * captured pieces log
- * undo previous moveCoords
- * pause after comp moves piece
- *
- */
-
 int main() {
-
-
     int testBoard[boardSize][boardSize] = {{0,0,0,0,0,0,0,-6},  //test chess board
                                        {0,0,0,0,0,0,0,-2},
                                        {0,0,0,0,0,0,0,0},
